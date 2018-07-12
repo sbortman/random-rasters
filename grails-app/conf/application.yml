@@ -1,6 +1,10 @@
 ---
 grails:
     profile: web
+    converters:
+        json:
+            default:
+                deep: true
     codegen:
         defaultPackage: random.rasters
     gorm:
